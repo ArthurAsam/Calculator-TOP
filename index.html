@@ -9,28 +9,37 @@
 <body>
     <main id="outerwrapper">
         <div class="container">
-            <div class="display">0</div>
-            <button type="button" class="grid-item clr clr-group-1">AC</button>
-            <button type="button" class="grid-item plusminus clr-group-1">+/-</button>
-            <button type="button" class="grid-item percent clr-group-1">%</button>
-            <button type="button" class="grid-item divide clr-group-2">/</button>
-            <button type="button" class="grid-item grid-item-7 clr-group-3">7</button>
-            <button type="button" class="grid-item grid-item-8 clr-group-3">8</button>
-            <button type="button" class="grid-item grid-item-9 clr-group-3">9</button>
-            <button type="button" class="grid-item grid-item-multiply clr-group-2">x</button>
-            <button type="button" class="grid-item grid-item-4 clr-group-3">4</button>
-            <button type="button" class="grid-item grid-item-5 clr-group-3">5</button>
-            <button type="button" class="grid-item grid-item-6 clr-group-3">6</button>
-            <button type="button" class="grid-item grid-item-subtract clr-group-2">-</button>
-            <button type="button" class="grid-item grid-item-1 clr-group-3">1</button>
-            <button type="button" class="grid-item grid-item-2 clr-group-3">2</button>
-            <button type="button" class="grid-item grid-item-3 clr-group-3">3</button>
-            <button type="button" class="grid-item grid-item-add clr-group-2">+</button>
-            <button type="button" class="grid-item grid-item-0 clr-group-3">0</button>
-            <button type="button" class="grid-item grid-item-decimal clr-group-3">.</button>
-            <button type="button" class="grid-item grid-item-equals clr-group-3">=</button>
-            <button type="button" class="grid-item grid-item-backspace clr-group-2">&#9100</button>
+            <div class="display">
+                <div class="num1"></div>
+                <div class="operator"></div>
+                <div class="num2"></div>
+            </div>
+            <button type="button" class="all-clr clr-group-1">AC</button>
+            <button type="button" class="plusminus clr-group-1">+/-</button>
+            <button type="button" class="percent clr-group-1">%</button>
+            <button type="button" class="data-operator clr-group-2">/</button>
+
+            <button type="button" class="data-number grid-item-7 clr-group-3">7</button>
+            <button type="button" class="data-number grid-item-8 clr-group-3">8</button>
+            <button type="button" class="data-number grid-item-9 clr-group-3">9</button>
+            <button type="button" class="data-operator clr-group-2">x</button>
+
+            <button type="button" class="data-number grid-item-4 clr-group-3">4</button>
+            <button type="button" class="data-number grid-item-5 clr-group-3">5</button>
+            <button type="button" class="data-number grid-item-6 clr-group-3">6</button>
+            <button type="button" class="data-operator grid-item-subtract clr-group-2">-</button>
+
+            <button type="button" class="data-number grid-item-1 clr-group-3">1</button>
+            <button type="button" class="data-number grid-item-2 clr-group-3">2</button>
+            <button type="button" class="data-number grid-item-3 clr-group-3">3</button>
+            <button type="button" class="data-operator grid-item-add clr-group-2">+</button>
+
+            <button type="button" class="data-number grid-item-0 clr-group-3">0</button>
+            <button type="button" class="data-number decimal clr-group-3">.</button>
+            <button type="button" class="equals clr-group-3">=</button>
+            <button type="button" class="backspace clr-group-2">&#9100</button>
         </div>
+        <script src="calculator.js"></script>
     </main>
 </body>
 </html>
