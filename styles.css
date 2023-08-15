@@ -80,7 +80,31 @@ button:hover{
 
 .clr-group-2{
     background-color: #FF8F1F;
+    font-size: 1.5rem; 
      
+}
+
+.backspace{
+    font-size: 2rem; 
+    font-weight: 700; 
+}
+
+.grid-item-add{
+    font-size: 2.2rem; 
+    font-weight: 100;
+    
+}
+
+.grid-item-subtract{
+    font-size: 2.2rem; 
+    font-weight: 100;;
+}
+.decimal{
+    font-size: 3rem; 
+}
+
+.equals{
+    font-size: 2rem;
 }
 
 .clr-group-3{
